@@ -1,0 +1,30 @@
+.title {
+	font-size: 28px;
+	font-weight: normal;
+	letter-spacing: -0.3px;
+	color: #8EABFF;
+	margin: 5px 5px 10px 5px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.skill {
+	display: flex;
+	width: 100%;
+	margin: 30px 0 30px 0;
+	.skill_title {
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: -0.3px;
+		margin: 0 0 0 20px;
+		flex: 4;
+		text-align: left;
+		// background-color: red;
+	}
+	
+	// .skill_graph {
+	// 	width: 5px;
+	// 	height: 30px;
+	// }
+	
+}

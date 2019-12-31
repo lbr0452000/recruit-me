@@ -1,0 +1,22 @@
+.App {
+	font-family: '맑은고딕', 'Segoe UI', sans-serif;
+	background-color: grey;
+	
+	
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media(min-width: 210mm) {
+	.App .container {
+		width: 210mm;
+		
+		.HRResume {
+			width: 210mm;
+			height: 297mm;
+		}
+	}
+	
+}

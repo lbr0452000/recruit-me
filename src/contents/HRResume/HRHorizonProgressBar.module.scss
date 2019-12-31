@@ -1,0 +1,16 @@
+.title {
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.graph {
+	height: 4px;
+	width: 100%;
+	background-color: grey;
+
+	.graph_progress {
+		height: 4px;
+		background-color: #8EABFF;
+	}
+}

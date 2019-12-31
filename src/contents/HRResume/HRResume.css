@@ -1,0 +1,59 @@
+.HRResume {
+	background-color: white;
+}
+
+.HRHeader {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.HRContacts {
+	margin-bottom: 40px;
+}
+
+.HRSkillGraph {
+	margin-bottom: 40px;
+}
+
+.HRCareer {
+	margin-bottom: 30px;
+}
+
+.HRResumeContents {
+	display: flex;
+}
+
+.HRResumeContents-left {
+	margin-left: 50px;
+	margin-right: 10px;
+	flex: 5;
+}
+
+.HRResumeContents-right {
+	margin-right: 50px;
+	margin-left: 10px;
+	flex: 8;
+}
+
+.HRResumeContents-bottom {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+
+@media (max-width: 180mm) {
+	.HRResumeContents {
+		display: block;
+	}
+	
+	.HRResumeContents-left {
+		margin: 0 20px 10px 20px;
+	}
+
+	.HRResumeContents-right {
+		margin: 0 20px 10px 20px;
+	}
+}
