@@ -33,8 +33,8 @@
 }
 
 .HRResumeContents-right {
-	margin-right: 50px;
-	margin-left: 10px;
+	margin-right: 40px;
+	margin-left: 25px;
 	flex: 8;
 }
 
@@ -45,15 +45,25 @@
 
 
 @media (max-width: 180mm) {
+	
+	.HRHeader {
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+	
 	.HRResumeContents {
 		display: block;
 	}
 	
 	.HRResumeContents-left {
-		margin: 0 20px 10px 20px;
+		margin: 0 40px 10px 20px;
 	}
 
 	.HRResumeContents-right {
-		margin: 0 20px 10px 20px;
+		margin: 0 40px 10px 20px;
+	}
+	
+	.HRResumeContents-bottom {
+		margin: 0 40px 10px 20px;
 	}
 }

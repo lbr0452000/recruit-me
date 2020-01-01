@@ -13,3 +13,16 @@
 	align-content: center;
 	margin: 15px 45px 15px 15px;
 }
+
+@media (max-width: 180mm) {
+	.name {
+		font-size: 35px;
+	}
+	
+	.image {
+		width: 35px;
+		height: 35px;
+		margin: 15px;
+	}
+	
+}
