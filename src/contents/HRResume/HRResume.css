@@ -44,7 +44,7 @@
 }
 
 
-@media (max-width: 180mm) {
+@media screen and (max-width: 180mm) {
 	
 	.HRHeader {
 		justify-content: center;
