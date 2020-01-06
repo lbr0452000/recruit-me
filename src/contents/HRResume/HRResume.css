@@ -19,7 +19,7 @@
 }
 
 .HRCareer {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .HRResumeContents {
@@ -27,20 +27,20 @@
 }
 
 .HRResumeContents-left {
-	margin-left: 50px;
+	margin-left: 75px;
 	margin-right: 10px;
 	flex: 5;
 }
 
 .HRResumeContents-right {
-	margin-right: 40px;
+	margin-right: 75px;
 	margin-left: 25px;
 	flex: 8;
 }
 
 .HRResumeContents-bottom {
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 75px;
+	margin-left: 75px;
 }
 
 

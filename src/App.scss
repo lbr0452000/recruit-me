@@ -18,10 +18,16 @@
 			height: 297mm;
 		}
 	}
-	
 }
 
 @media print {
+	
+	@page {
+		width: 210mm;
+		height: 297mm;
+		margin: 0;
+	}
+	
 	* {
 		-webkit-print-color-adjust: exact;
 		print-color-adjust: exact;
